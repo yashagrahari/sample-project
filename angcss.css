@@ -1,0 +1,59 @@
+/*.nav .nav-bar .nav-item:hover{
+	background-color: black;
+	color: white;
+}
+*/
+nav{
+	background-image: linear-gradient(to right,white,rgb(240, 19, 30,0.4))
+}
+
+#ico{
+	background-color: black;
+	border-color: black;
+}
+
+#sidebar,ul,li{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#sidebar{
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background: #151719;
+}
+
+#sidebar ul li{
+  color: rgba(230,230,230,0.9);
+  padding: 15px 10px;
+  list-style: none; 
+  border-bottom: 1px solid rgba(100,100,100,0.3);
+  color: white !important;
+}
+
+#sidebar{
+	color: white !important;
+}
+
+a{
+	text-decoration: none;
+	color: white !important;
+
+}
+
+
+/*#sidebar #toggle-btn{
+  positon: absolute;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+#sidebar #toggle-btn span{
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: black;
+  margin: 3px 0px;
+  }*/
